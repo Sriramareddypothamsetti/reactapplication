@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+
+.container {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: darkslategray;
+}
+.child1 {
+  flex: 3;
+  font-family: "Rubik Doodle Shadow", sans-serif;
+  align-items: center;
+  margin-left: 50px;
+}
+.child4 {
+  flex: 8;
+  font-style: italic;
+  display: flex;
+}
+.child4 div {
+  margin: 10px;
+  flex: 1;
+}
+
+.child2 {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 70px;
+  flex: 1;
+}
+.child2 input {
+  width: 200px;
+}
+.child3 {
+  display: flex;
+  flex: 2;
+}
+.child3 div {
+  flex: 1;
+}
+.bol {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.bol1 {
+  margin-bottom: 20px;
+}
+.acco {
+  margin-top: 30px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  } /* Stack items vertically on small screens */
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+}

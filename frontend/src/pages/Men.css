@@ -1,0 +1,12 @@
+/* ImageGallery.css */
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 20px; /* Compensate for the margin-right in the last card */
+}
+.image-gallery-las-trow {
+  margin-right: 0;
+}

@@ -1,0 +1,10 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: antiquewhite; /* Ensures the layout takes at least the full height of the viewport */
+}
+
+.content {
+  flex-grow: 1; /* Allows the content to take up remaining space */
+}

@@ -1,0 +1,15 @@
+.symb {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.symb > div {
+  margin: 20px;
+  margin-down: 5px;
+  margin-top: 20px;
+  background-color: antiquewhite;
+}
+p {
+  text-align: center;
+  background-color: antiquewhite;
+}

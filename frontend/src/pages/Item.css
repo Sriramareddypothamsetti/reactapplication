@@ -1,0 +1,69 @@
+.items {
+  position: relative;
+
+  display: flex;
+  width: 100%;
+  height: 600px;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+.items .stars {
+  position: absolute;
+  top: 25px;
+  right: 700px;
+  color: gold;
+}
+.items .me {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: indigo;
+}
+.items .pic {
+  position: relative;
+  width: 40%;
+
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.pic img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.items .matt {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.love-icon {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px;
+  color: white; /* Adjust the right position as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  z-index: 2; /* Ensure it's above other elements */
+}
+p {
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+button {
+  margin: 0px 10px;
+  width: 30px;
+  background-color: white;
+}
+.add {
+  width: 80px;
+  height: 30px;
+  margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+/* Card.css */
+
+.card {
+  width: 300px; /* Set a specific width for the card, adjust as needed */
+  border: 1px solid #000; /* Just for visualization */
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.love-icon {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px;
+  color: white; /* Adjust the right position as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  z-index: 2; /* Ensure it's above other elements */
+}
+
+.card img {
+  width: 100%; /* Make the image fill the card horizontally */
+  height: 80%; /* Set a specific height for the image, adjust as needed */
+  object-fit: fill; /* Ensure the image covers the specified dimensions */
+}
+
+.card-details {
+  padding: 10px;
+}
+.card-details .stars {
+  color: gold;
+  text-align: center;
+}

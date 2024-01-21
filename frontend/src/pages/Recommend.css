@@ -1,0 +1,15 @@
+.i1 {
+  display: flex;
+}
+.idxx {
+  width: 100%;
+  background-color: antiquewhite;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.i1/* ParentComponent.css */ {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  background-color: antiquewhite;
+}
